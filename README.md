@@ -1,6 +1,6 @@
-Node S3 Uploader
+Classwork Uploader
 ===
-Something I made for students to upload classwork.
+Something for my students to use to upload files to AWS S3. Organizes by class and student name
 
 TODO:
 * Tests
