@@ -32,7 +32,7 @@ app.post('/submit_form', function(req, res) {
     var rstream = fs.createReadStream(req.files['file_input'].path);
     var params = {
         Bucket: S3_BUCKET,
-        Key: req.body.class_name + '/' + req.body.full_name + '/' + req.files['file_input'].originalname,
+        Key: req.body.class_name + '/' + req.body.assignment + '/' +req.body.full_name  + '/' + req.files['file_input'].originalname,
         Body: rstream
     };
     var upload = s3.upload(params);
