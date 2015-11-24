@@ -1,0 +1,12 @@
+{
+  "name": "NodeDirectUploader",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "*",
+    "ejs": "*",
+    "express": "~4.0.0",
+    "multer": "0.1.6",
+    "s3": "^4.4.0"
+  }
+}

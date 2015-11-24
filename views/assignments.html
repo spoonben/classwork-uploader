@@ -1,0 +1,29 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="header">
+  <h1>Upload Your Assignment</h1>
+</div>
+<div class="uploads">
+  <p>
+    This is a simple file uploader for my students. <strong>Everything on the form is required,
+    so please fill everything out.</strong> If something goes wrong, <strong>email me</strong>.
+  </p>
+  <form method="POST" action="/submit_form/" enctype="multipart/form-data">
+      <input type="file" name="file_input" id="file_input"/>
+      <label for="file_input">Choose a file...</label><br/><br/>
+      <div id="file_name"></div> <br/>
+      <input type="text" name="email" placeholder="Your Email" /><br />
+      <input type="text" name="full_name" placeholder="Your Full name" /><br />
+      <select id="class-name" name="class_name">
+        <option value="">What class are you in?</option>
+        <option value="DIGD-200-Fall-2015">DIGD 200 - Fall 2015</option>
+      </select><br/><br/>
+      <input type="submit" value="Hand it in!" />
+  </form>
+</div>
+<div class="footer"></div>
+</body>
+</html>
