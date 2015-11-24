@@ -5,5 +5,4 @@ Something I made for students to upload classwork.
 TODO:
 * Tests
 * Validation
-
-I originally started with https://github.com/flyingsparx/NodeDirectUploader and then went in a completely different direction. 
+* Use some sort of DB or json structure for classes/assignments
